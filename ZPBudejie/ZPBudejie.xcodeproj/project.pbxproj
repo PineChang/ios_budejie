@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C47F2F60079EB2D46DB9739 /* libPods-ZPBudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */; };
+		78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78487A3C1E1129B000BE3E02 /* ZPFileTool.m */; };
 		78C4B4B71E0D3B93005EC975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B61E0D3B93005EC975 /* main.m */; };
 		78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B91E0D3B93005EC975 /* AppDelegate.m */; };
-		78C4B4BD1E0D3B93005EC975 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4BC1E0D3B93005EC975 /* ViewController.m */; };
 		78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4BE1E0D3B93005EC975 /* Main.storyboard */; };
 		78C4B4C21E0D3B93005EC975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4C11E0D3B93005EC975 /* Assets.xcassets */; };
 		78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4C31E0D3B93005EC975 /* LaunchScreen.storyboard */; };
@@ -35,12 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.debug.xcconfig"; sourceTree = "<group>"; };
+		78487A3B1E1129B000BE3E02 /* ZPFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFileTool.h; sourceTree = "<group>"; };
+		78487A3C1E1129B000BE3E02 /* ZPFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPFileTool.m; sourceTree = "<group>"; };
 		78C4B4B21E0D3B93005EC975 /* ZPBudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPBudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4B61E0D3B93005EC975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78C4B4B81E0D3B93005EC975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		78C4B4B91E0D3B93005EC975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78C4B4BB1E0D3B93005EC975 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78C4B4BC1E0D3B93005EC975 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78C4B4B81E0D3B93005EC975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		78C4B4B91E0D3B93005EC975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		78C4B4BF1E0D3B93005EC975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78C4B4C11E0D3B93005EC975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C4B4C41E0D3B93005EC975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		78C4B4D61E0D3B93005EC975 /* ZPBudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPBudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4DA1E0D3B93005EC975 /* ZPBudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPBudejieUITests.m; sourceTree = "<group>"; };
 		78C4B4DC1E0D3B93005EC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.release.xcconfig"; sourceTree = "<group>"; };
+		E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPBudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C47F2F60079EB2D46DB9739 /* libPods-ZPBudejie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,314 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA438F0005332EE80E7F2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */,
+				85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		709B7C63FE0001DB514A1B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78487A111E11282F00BE3E02 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78487A121E11282F00BE3E02 /* AD */,
+				78487A161E11282F00BE3E02 /* Essence */,
+				78487A1A1E11282F00BE3E02 /* FriendTread */,
+				78487A1E1E11282F00BE3E02 /* Main */,
+				78487A221E11282F00BE3E02 /* Me */,
+				78487A261E11282F00BE3E02 /* New */,
+				78487A2A1E11282F00BE3E02 /* Other */,
+				78487A2E1E11282F00BE3E02 /* Publish */,
+				78487A321E11282F00BE3E02 /* Setting */,
+				78487A361E11282F00BE3E02 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		78487A121E11282F00BE3E02 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				78487A131E11282F00BE3E02 /* Controller */,
+				78487A141E11282F00BE3E02 /* Model */,
+				78487A151E11282F00BE3E02 /* View */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		78487A131E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A141E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A151E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A161E11282F00BE3E02 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				78487A171E11282F00BE3E02 /* Controller */,
+				78487A181E11282F00BE3E02 /* Model */,
+				78487A191E11282F00BE3E02 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		78487A171E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A181E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A191E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A1A1E11282F00BE3E02 /* FriendTread */ = {
+			isa = PBXGroup;
+			children = (
+				78487A1B1E11282F00BE3E02 /* Controller */,
+				78487A1C1E11282F00BE3E02 /* Model */,
+				78487A1D1E11282F00BE3E02 /* View */,
+			);
+			path = FriendTread;
+			sourceTree = "<group>";
+		};
+		78487A1B1E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A1C1E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A1D1E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A1E1E11282F00BE3E02 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				78487A1F1E11282F00BE3E02 /* Controller */,
+				78487A201E11282F00BE3E02 /* Model */,
+				78487A211E11282F00BE3E02 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		78487A1F1E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A201E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A211E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A221E11282F00BE3E02 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				78487A231E11282F00BE3E02 /* Controller */,
+				78487A241E11282F00BE3E02 /* Model */,
+				78487A251E11282F00BE3E02 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		78487A231E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A241E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A251E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A261E11282F00BE3E02 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				78487A271E11282F00BE3E02 /* Controller */,
+				78487A281E11282F00BE3E02 /* Model */,
+				78487A291E11282F00BE3E02 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		78487A271E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A281E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A291E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A2A1E11282F00BE3E02 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				78C4B4B81E0D3B93005EC975 /* AppDelegate.h */,
+				78C4B4B91E0D3B93005EC975 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		78487A2E1E11282F00BE3E02 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				78487A2F1E11282F00BE3E02 /* Controller */,
+				78487A301E11282F00BE3E02 /* Model */,
+				78487A311E11282F00BE3E02 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		78487A2F1E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A301E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A311E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A321E11282F00BE3E02 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				78487A331E11282F00BE3E02 /* Controller */,
+				78487A341E11282F00BE3E02 /* Model */,
+				78487A351E11282F00BE3E02 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		78487A331E11282F00BE3E02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78487A341E11282F00BE3E02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78487A351E11282F00BE3E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78487A361E11282F00BE3E02 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				78487A3A1E11293700BE3E02 /* File */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		78487A3A1E11293700BE3E02 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				78487A3B1E1129B000BE3E02 /* ZPFileTool.h */,
+				78487A3C1E1129B000BE3E02 /* ZPFileTool.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 		78C4B4A91E0D3B93005EC975 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +398,8 @@
 				78C4B4CE1E0D3B93005EC975 /* ZPBudejieTests */,
 				78C4B4D91E0D3B93005EC975 /* ZPBudejieUITests */,
 				78C4B4B31E0D3B93005EC975 /* Products */,
+				0EA438F0005332EE80E7F2FD /* Pods */,
+				709B7C63FE0001DB514A1B56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +416,7 @@
 		78C4B4B41E0D3B93005EC975 /* ZPBudejie */ = {
 			isa = PBXGroup;
 			children = (
-				78C4B4B81E0D3B93005EC975 /* AppDelegate.h */,
-				78C4B4B91E0D3B93005EC975 /* AppDelegate.m */,
-				78C4B4BB1E0D3B93005EC975 /* ViewController.h */,
-				78C4B4BC1E0D3B93005EC975 /* ViewController.m */,
+				78487A111E11282F00BE3E02 /* Classes */,
 				78C4B4BE1E0D3B93005EC975 /* Main.storyboard */,
 				78C4B4C11E0D3B93005EC975 /* Assets.xcassets */,
 				78C4B4C31E0D3B93005EC975 /* LaunchScreen.storyboard */,
@@ -147,9 +459,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78C4B4DF1E0D3B93005EC975 /* Build configuration list for PBXNativeTarget "ZPBudejie" */;
 			buildPhases = (
+				4CAC00AA557AA4C986AE7391 /* [CP] Check Pods Manifest.lock */,
 				78C4B4AE1E0D3B93005EC975 /* Sources */,
 				78C4B4AF1E0D3B93005EC975 /* Frameworks */,
 				78C4B4B01E0D3B93005EC975 /* Resources */,
+				9453B0B327F3D8FE1B29F986 /* [CP] Embed Pods Frameworks */,
+				A2C1C1DA8FD4C4B2BA9B696E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +517,7 @@
 		78C4B4AA1E0D3B93005EC975 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZP;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = com.;
 				TargetAttributes = {
@@ -265,12 +581,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CAC00AA557AA4C986AE7391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9453B0B327F3D8FE1B29F986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C1C1DA8FD4C4B2BA9B696E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78C4B4AE1E0D3B93005EC975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C4B4BD1E0D3B93005EC975 /* ViewController.m in Sources */,
+				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
 				78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,
 			);
@@ -411,6 +775,7 @@
 		};
 		78C4B4E01E0D3B93005EC975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
@@ -422,6 +787,7 @@
 		};
 		78C4B4E11E0D3B93005EC975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
@@ -496,6 +862,7 @@
 				78C4B4E11E0D3B93005EC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C4B4E21E0D3B93005EC975 /* Build configuration list for PBXNativeTarget "ZPBudejieTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +871,7 @@
 				78C4B4E41E0D3B93005EC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C4B4E51E0D3B93005EC975 /* Build configuration list for PBXNativeTarget "ZPBudejieUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +880,7 @@
 				78C4B4E71E0D3B93005EC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
