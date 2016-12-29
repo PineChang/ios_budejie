@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C47F2F60079EB2D46DB9739 /* libPods-ZPBudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */; };
+		783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */; };
+		783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FC1E15245200D07D84 /* UIImage+Image.m */; };
+		783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FF1E1528B600D07D84 /* UIView+Frame.m */; };
+		783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */; };
 		78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78487A3C1E1129B000BE3E02 /* ZPFileTool.m */; };
 		78C4B4B71E0D3B93005EC975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B61E0D3B93005EC975 /* main.m */; };
 		78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B91E0D3B93005EC975 /* AppDelegate.m */; };
@@ -37,6 +41,14 @@
 
 /* Begin PBXFileReference section */
 		5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.debug.xcconfig"; sourceTree = "<group>"; };
+		783FF5F81E151C9300D07D84 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
+		783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
+		783FF5FB1E15245200D07D84 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		783FF5FC1E15245200D07D84 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		783FF5FE1E1528B600D07D84 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		783FF5FF1E1528B600D07D84 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		783FF6041E152E7000D07D84 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		78487A3B1E1129B000BE3E02 /* ZPFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFileTool.h; sourceTree = "<group>"; };
 		78487A3C1E1129B000BE3E02 /* ZPFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPFileTool.m; sourceTree = "<group>"; };
 		78C4B4B21E0D3B93005EC975 /* ZPBudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPBudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +110,21 @@
 				E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783FF5F71E151C4300D07D84 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				783FF5F81E151C9300D07D84 /* UIImage+Antialias.h */,
+				783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */,
+				783FF5FB1E15245200D07D84 /* UIImage+Image.h */,
+				783FF5FC1E15245200D07D84 /* UIImage+Image.m */,
+				783FF5FE1E1528B600D07D84 /* UIView+Frame.h */,
+				783FF5FF1E1528B600D07D84 /* UIView+Frame.m */,
+				783FF6041E152E7000D07D84 /* UIBarButtonItem+Item.h */,
+				783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		78487A111E11282F00BE3E02 /* Classes */ = {
@@ -306,6 +333,7 @@
 		78487A2A1E11282F00BE3E02 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				783FF5F71E151C4300D07D84 /* Category */,
 				78C4B4B81E0D3B93005EC975 /* AppDelegate.h */,
 				78C4B4B91E0D3B93005EC975 /* AppDelegate.m */,
 			);
@@ -634,8 +662,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */,
+				783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */,
+				783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */,
 				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
 				78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */,
+				783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -778,7 +810,9 @@
 			baseConfigurationReference = 5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.infosky.ZPBudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -790,7 +824,9 @@
 			baseConfigurationReference = 85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.infosky.ZPBudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
