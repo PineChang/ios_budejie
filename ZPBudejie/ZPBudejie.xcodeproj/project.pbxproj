@@ -12,7 +12,9 @@
 		783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FC1E15245200D07D84 /* UIImage+Image.m */; };
 		783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FF1E1528B600D07D84 /* UIView+Frame.m */; };
 		783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */; };
+		78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 78409A201E166D6D00B2C96F /* UITextField+Placeholder.m */; };
 		78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78487A3C1E1129B000BE3E02 /* ZPFileTool.m */; };
+		78A74FAD1E2099FF0048691B /* UIImageView+DownLaod.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */; };
 		78C4B4B71E0D3B93005EC975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B61E0D3B93005EC975 /* main.m */; };
 		78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B91E0D3B93005EC975 /* AppDelegate.m */; };
 		78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4BE1E0D3B93005EC975 /* Main.storyboard */; };
@@ -49,8 +51,12 @@
 		783FF5FF1E1528B600D07D84 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		783FF6041E152E7000D07D84 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		78409A1F1E166D6D00B2C96F /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		78409A201E166D6D00B2C96F /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
 		78487A3B1E1129B000BE3E02 /* ZPFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFileTool.h; sourceTree = "<group>"; };
 		78487A3C1E1129B000BE3E02 /* ZPFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPFileTool.m; sourceTree = "<group>"; };
+		78A74FAB1E2099FF0048691B /* UIImageView+DownLaod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DownLaod.h"; sourceTree = "<group>"; };
+		78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DownLaod.m"; sourceTree = "<group>"; };
 		78C4B4B21E0D3B93005EC975 /* ZPBudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPBudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4B61E0D3B93005EC975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78C4B4B81E0D3B93005EC975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +129,10 @@
 				783FF5FF1E1528B600D07D84 /* UIView+Frame.m */,
 				783FF6041E152E7000D07D84 /* UIBarButtonItem+Item.h */,
 				783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */,
+				78409A1F1E166D6D00B2C96F /* UITextField+Placeholder.h */,
+				78409A201E166D6D00B2C96F /* UITextField+Placeholder.m */,
+				78A74FAB1E2099FF0048691B /* UIImageView+DownLaod.h */,
+				78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -663,6 +673,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */,
+				78A74FAD1E2099FF0048691B /* UIImageView+DownLaod.m in Sources */,
+				78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */,
 				783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */,
 				783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */,
 				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
