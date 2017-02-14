@@ -1,0 +1,34 @@
+//
+//  BuDeJie.pch
+//  ZPBudejie
+//
+//  Created by 管理员 on 2017/2/14.
+//  Copyright © 2017年 com. All rights reserved.
+
+/************要用来在几乎每一个文件都要导入的头文件************/
+#import "UIView+Frame.h"
+#import "ZPConst.h"
+/************屏幕适配用到的宏************/
+
+#define ZPScreenW [UIScreen mainScreen].bounds.size.width
+#define ZPScreenH [UIScreen mainScreen].bounds.size.height
+
+#define iphone6P (ZPScreenH == 736)
+#define iphone6  (ZPScreenH == 667)
+#define iphone5  (ZPScreenH == 568)
+#define iphone4  (ZPScreenH == 480)
+/************调试还是发布用到的打印判断宏************/
+
+#ifdef DEBUG
+//如果是调试阶段那么就替换原生的打印
+#define ZPLog(...) NSLog(__VA_ARGS__);
+
+#else 
+//如果是发布阶段那么直接替换空
+#define ZPLog(...)
+
+#endif
+
+/************定义一个宏用来打印函数名************/
+#define ZPFunc ZPLog(@"%s",__func__)
+
