@@ -63,7 +63,111 @@
 -(void)setupLaunchImage{
   //由于不同的iphone手机有不用的尺寸，那么就应该通过平台进行判断到底yoga
     //用哪一种的图片
+    if(iphone6P){
+        
+        self.launchImageView.image = [UIImage imageNamed:@"LaunchImage-800-Portrait-736h@3x"];
+        
+    }else if(iphone6){
+        self.launchImageView.image=[UIImage imageNamed:@"LaunchImage-800-667h"];
+        
+    }else if(iphone5){
+        self.launchImageView.image=[UIImage imageNamed:@"LaunchImage-568h"];
+    }else if(iphone4){
+        self.launchImageView.image=[UIImage imageNamed:@"LaunchImage-700"];
+    }
     
+    
+}
+
+//第二步加载广告图片数据；
+- (void)loadAdData{
+    //创建回话管理者
+    AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
+    
+    //设置发起请求的参数
+    NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+    parameters[@"code2"]=code2;
+    
+    //向服务器发送get请求
+    
+    [mgr GET:@"http://mobads.baidu.com/cpro/ui/mads.php" parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        //请求成功的回调block处理
+        //获取字典
+        NSDictionary *adDict = [responseObject[@"ad"] lastObject];
+        //字典转模型
+        self.item = [ZPADItem mj_objectWithKeyValues:adDict];
+        //此时模型中就封装了要广告数据,包括图片的原始宽高
+        //我们要设置一张宽度为屏幕宽度，高度为高度乘以原图片宽度缩放比例的图片，此时图片能保持宽高比
+        CGFloat h = ZPScreenW / self.item.w * self.item.h;
+        
+        self.adView.frame = CGRectMake(0,0,ZPScreenW,h);
+        
+        [self.adView sd_setImageWithURL:[NSURL URLWithString:self.item.w_picurl]];
+        
+        
+        
+    
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        //请求失败的回调block处理
+        NSLog(@"%@",error);
+        
+        
+    }];
+    
+    
+    
+}
+//采用懒加载的形式，第一次用的时候进行判空创建，
+-(UIImageView *)adView{
+    //第一次用的时候进行判空创建，并将其添加进adContainView
+    if(_adView==nil){
+        UIImageView *imageView = [[UIImageView alloc] init];
+         //此时添加进去后并没有设置Frame，因为需要请求服务器端，获取原始图片的宽高才能进行适配
+        [self.adContentView addSubview:imageView];
+       
+        //给添加的UIImageView进行添加手势判断，当点击的时候，跳进广告的链接
+        UITapGestureRecognizer *tg = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap)];
+        [imageView addGestureRecognizer:tg];
+        //不要忘记打开UIImageView的用户交互设置
+        imageView.userInteractionEnabled= YES;
+        
+        _adView = imageView;
+    }
+    
+   
+    return _adView;
+    
+    
+}
+
+//点击广告跳转的逻辑
+-(void)tap{
+    NSURL *url = [NSURL URLWithString:self.item.ori_curl];
+    UIApplication *app = [UIApplication sharedApplication];
+    if([app canOpenURL:url]){
+        [app openURL:url];
+    }
+}
+
+//点击跳转按钮要做的逻辑
+- (IBAction)tapJump:(id)sender {
+    
+    ZPTabBarController * tabBarVc = [[ZPTabBarController alloc] init];
+    [UIApplication sharedApplication].keyWindow.rootViewController=tabBarVc;
+    //记住，当跳转后，一定要把定时器干掉
+    [_timer invalidate];
+}
+//定时器数过三秒后，进行跳转
+- (void)timeChange{
+    //不要设置全局变量，作为函数内部静态的局部变量，不会销毁，每次调用都存在；
+    static int i = 3;
+    //如果函数执行三次后，此时i为0，直接进行跳转
+    if(i==0){
+        [self tapJump:nil];
+    }
+    i--;
+    //此时还未跳转，那么就将文字进行改变
+    [self.jumpBtn setTitle:[NSString stringWithFormat:@"跳转(%i)",i] forState:UIControlStateNormal];
     
 }
 
@@ -72,6 +176,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-*/
 
 @end

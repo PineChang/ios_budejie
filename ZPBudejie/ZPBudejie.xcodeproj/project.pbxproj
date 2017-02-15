@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C47F2F60079EB2D46DB9739 /* libPods-ZPBudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */; };
+		7833C0921E540083006C2871 /* ZPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7833C0911E540083006C2871 /* ZPConst.m */; };
 		783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */; };
 		783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FC1E15245200D07D84 /* UIImage+Image.m */; };
 		783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FF1E1528B600D07D84 /* UIView+Frame.m */; };
@@ -18,7 +19,6 @@
 		785389171E5294D70009AFC7 /* ZPAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785389151E5294D70009AFC7 /* ZPAdViewController.xib */; };
 		7853891A1E5297650009AFC7 /* ZPADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 785389191E5297650009AFC7 /* ZPADItem.m */; };
 		785389201E529AC70009AFC7 /* ZPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7853891F1E529AC70009AFC7 /* ZPTabBarController.m */; };
-		78A74FAD1E2099FF0048691B /* UIImageView+DownLaod.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */; };
 		78C4B4B71E0D3B93005EC975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B61E0D3B93005EC975 /* main.m */; };
 		78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B91E0D3B93005EC975 /* AppDelegate.m */; };
 		78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4BE1E0D3B93005EC975 /* Main.storyboard */; };
@@ -47,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.debug.xcconfig"; sourceTree = "<group>"; };
+		7833C0901E540083006C2871 /* ZPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPConst.h; sourceTree = "<group>"; };
+		7833C0911E540083006C2871 /* ZPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPConst.m; sourceTree = "<group>"; };
 		783FF5F81E151C9300D07D84 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
 		783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
 		783FF5FB1E15245200D07D84 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
@@ -67,8 +69,6 @@
 		7853891E1E529AC70009AFC7 /* ZPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTabBarController.h; sourceTree = "<group>"; };
 		7853891F1E529AC70009AFC7 /* ZPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTabBarController.m; sourceTree = "<group>"; };
 		785389211E52A95A0009AFC7 /* BuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
-		78A74FAB1E2099FF0048691B /* UIImageView+DownLaod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DownLaod.h"; sourceTree = "<group>"; };
-		78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DownLaod.m"; sourceTree = "<group>"; };
 		78C4B4B21E0D3B93005EC975 /* ZPBudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPBudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4B61E0D3B93005EC975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78C4B4B81E0D3B93005EC975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -143,8 +143,6 @@
 				783FF6051E152E7000D07D84 /* UIBarButtonItem+Item.m */,
 				78409A1F1E166D6D00B2C96F /* UITextField+Placeholder.h */,
 				78409A201E166D6D00B2C96F /* UITextField+Placeholder.m */,
-				78A74FAB1E2099FF0048691B /* UIImageView+DownLaod.h */,
-				78A74FAC1E2099FF0048691B /* UIImageView+DownLaod.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -366,6 +364,8 @@
 				78C4B4B81E0D3B93005EC975 /* AppDelegate.h */,
 				78C4B4B91E0D3B93005EC975 /* AppDelegate.m */,
 				785389211E52A95A0009AFC7 /* BuDeJie.pch */,
+				7833C0901E540083006C2871 /* ZPConst.h */,
+				7833C0911E540083006C2871 /* ZPConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -695,7 +695,6 @@
 			files = (
 				783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */,
 				785389161E5294D70009AFC7 /* ZPAdViewController.m in Sources */,
-				78A74FAD1E2099FF0048691B /* UIImageView+DownLaod.m in Sources */,
 				78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */,
 				783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */,
 				785389201E529AC70009AFC7 /* ZPTabBarController.m in Sources */,
@@ -703,6 +702,7 @@
 				7853891A1E5297650009AFC7 /* ZPADItem.m in Sources */,
 				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
 				78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */,
+				7833C0921E540083006C2871 /* ZPConst.m in Sources */,
 				783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,
 			);
@@ -847,6 +847,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPBudejie/Classes/Other/BuDeJie.pch";
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -861,6 +863,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPBudejie/Classes/Other/BuDeJie.pch";
 				INFOPLIST_FILE = ZPBudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
