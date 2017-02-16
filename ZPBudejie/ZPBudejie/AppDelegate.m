@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ZPAdViewController.h"
+#import <AFNetworking.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //第一步创建窗口对象
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //第二步设置窗口的根控制器为广告页面的控制器
+    self.window.rootViewController = [[ZPAdViewController alloc] init];
+    
+    [self.window makeKeyAndVisible];
+    
+    //此时开始监控网络状况
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    
     return YES;
 }
 

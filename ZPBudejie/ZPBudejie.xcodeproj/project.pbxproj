@@ -26,6 +26,13 @@
 		78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4C31E0D3B93005EC975 /* LaunchScreen.storyboard */; };
 		78C4B4D01E0D3B93005EC975 /* ZPBudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4CF1E0D3B93005EC975 /* ZPBudejieTests.m */; };
 		78C4B4DB1E0D3B93005EC975 /* ZPBudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4DA1E0D3B93005EC975 /* ZPBudejieUITests.m */; };
+		78F3FE821E555D9C007B06A5 /* ZPEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */; };
+		78F3FE851E555DD2007B06A5 /* ZPFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE841E555DD2007B06A5 /* ZPFriendTrendViewController.m */; };
+		78F3FE881E555E0A007B06A5 /* ZPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE871E555E0A007B06A5 /* ZPMeViewController.m */; };
+		78F3FE8B1E555E24007B06A5 /* ZPNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE8A1E555E24007B06A5 /* ZPNewViewController.m */; };
+		78F3FE8E1E555ED0007B06A5 /* ZPPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE8D1E555ED0007B06A5 /* ZPPublishViewController.m */; };
+		78F3FE911E555F73007B06A5 /* ZPNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */; };
+		78F3FE941E55877A007B06A5 /* ZPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE931E55877A007B06A5 /* ZPTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +90,20 @@
 		78C4B4D61E0D3B93005EC975 /* ZPBudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPBudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4DA1E0D3B93005EC975 /* ZPBudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPBudejieUITests.m; sourceTree = "<group>"; };
 		78C4B4DC1E0D3B93005EC975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F3FE801E555D9C007B06A5 /* ZPEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPEssenceViewController.h; sourceTree = "<group>"; };
+		78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPEssenceViewController.m; sourceTree = "<group>"; };
+		78F3FE831E555DD2007B06A5 /* ZPFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFriendTrendViewController.h; sourceTree = "<group>"; };
+		78F3FE841E555DD2007B06A5 /* ZPFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPFriendTrendViewController.m; sourceTree = "<group>"; };
+		78F3FE861E555E0A007B06A5 /* ZPMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMeViewController.h; sourceTree = "<group>"; };
+		78F3FE871E555E0A007B06A5 /* ZPMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMeViewController.m; sourceTree = "<group>"; };
+		78F3FE891E555E24007B06A5 /* ZPNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNewViewController.h; sourceTree = "<group>"; };
+		78F3FE8A1E555E24007B06A5 /* ZPNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNewViewController.m; sourceTree = "<group>"; };
+		78F3FE8C1E555ED0007B06A5 /* ZPPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPPublishViewController.h; sourceTree = "<group>"; };
+		78F3FE8D1E555ED0007B06A5 /* ZPPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPPublishViewController.m; sourceTree = "<group>"; };
+		78F3FE8F1E555F73007B06A5 /* ZPNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPNavigationViewController.h; sourceTree = "<group>"; };
+		78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNavigationViewController.m; sourceTree = "<group>"; };
+		78F3FE921E55877A007B06A5 /* ZPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTabBar.h; sourceTree = "<group>"; };
+		78F3FE931E55877A007B06A5 /* ZPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTabBar.m; sourceTree = "<group>"; };
 		85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.release.xcconfig"; sourceTree = "<group>"; };
 		E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPBudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -213,6 +234,8 @@
 		78487A171E11282F00BE3E02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE801E555D9C007B06A5 /* ZPEssenceViewController.h */,
+				78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,6 +267,8 @@
 		78487A1B1E11282F00BE3E02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE831E555DD2007B06A5 /* ZPFriendTrendViewController.h */,
+				78F3FE841E555DD2007B06A5 /* ZPFriendTrendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -277,6 +302,8 @@
 			children = (
 				7853891E1E529AC70009AFC7 /* ZPTabBarController.h */,
 				7853891F1E529AC70009AFC7 /* ZPTabBarController.m */,
+				78F3FE8F1E555F73007B06A5 /* ZPNavigationViewController.h */,
+				78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +318,8 @@
 		78487A211E11282F00BE3E02 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE921E55877A007B06A5 /* ZPTabBar.h */,
+				78F3FE931E55877A007B06A5 /* ZPTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +337,8 @@
 		78487A231E11282F00BE3E02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE861E555E0A007B06A5 /* ZPMeViewController.h */,
+				78F3FE871E555E0A007B06A5 /* ZPMeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,6 +370,8 @@
 		78487A271E11282F00BE3E02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE891E555E24007B06A5 /* ZPNewViewController.h */,
+				78F3FE8A1E555E24007B06A5 /* ZPNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -383,6 +416,8 @@
 		78487A2F1E11282F00BE3E02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78F3FE8C1E555ED0007B06A5 /* ZPPublishViewController.h */,
+				78F3FE8D1E555ED0007B06A5 /* ZPPublishViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -693,18 +728,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F3FE8E1E555ED0007B06A5 /* ZPPublishViewController.m in Sources */,
 				783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */,
 				785389161E5294D70009AFC7 /* ZPAdViewController.m in Sources */,
 				78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */,
+				78F3FE8B1E555E24007B06A5 /* ZPNewViewController.m in Sources */,
 				783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */,
 				785389201E529AC70009AFC7 /* ZPTabBarController.m in Sources */,
+				78F3FE881E555E0A007B06A5 /* ZPMeViewController.m in Sources */,
+				78F3FE941E55877A007B06A5 /* ZPTabBar.m in Sources */,
 				783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */,
 				7853891A1E5297650009AFC7 /* ZPADItem.m in Sources */,
 				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
 				78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */,
 				7833C0921E540083006C2871 /* ZPConst.m in Sources */,
+				78F3FE851E555DD2007B06A5 /* ZPFriendTrendViewController.m in Sources */,
 				783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,
+				78F3FE911E555F73007B06A5 /* ZPNavigationViewController.m in Sources */,
+				78F3FE821E555D9C007B06A5 /* ZPEssenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
