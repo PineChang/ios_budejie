@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZPNavigationViewController : UINavigationViewController
+@interface ZPNavigationViewController : UINavigationController
 
 @end
