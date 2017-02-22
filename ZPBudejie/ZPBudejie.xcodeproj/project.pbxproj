@@ -25,6 +25,10 @@
 		7864FFD81E5BD88D00B7BC58 /* libMJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7864FFCD1E5BD85F00B7BC58 /* libMJExtension.a */; };
 		7864FFE01E5BDE0500B7BC58 /* ZPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7864FFDF1E5BDE0500B7BC58 /* ZPTopicViewController.m */; };
 		7864FFE31E5BDEB800B7BC58 /* ZPTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7864FFE21E5BDEB800B7BC58 /* ZPTopic.m */; };
+		78AFCD521E5D1EC000D74B2B /* ZPTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFCD511E5D1EC000D74B2B /* ZPTitleButton.m */; };
+		78AFCD5A1E5D2ADD00D74B2B /* ZPDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFCD591E5D2ADD00D74B2B /* ZPDIYHeader.m */; };
+		78AFCD5F1E5D2F1300D74B2B /* ZPTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFCD5D1E5D2F1300D74B2B /* ZPTopicCell.m */; };
+		78AFCD601E5D2F1300D74B2B /* ZPTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78AFCD5E1E5D2F1300D74B2B /* ZPTopicCell.xib */; };
 		78C4B4B71E0D3B93005EC975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B61E0D3B93005EC975 /* main.m */; };
 		78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C4B4B91E0D3B93005EC975 /* AppDelegate.m */; };
 		78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4B4BE1E0D3B93005EC975 /* Main.storyboard */; };
@@ -42,6 +46,7 @@
 		78F3FE8E1E555ED0007B06A5 /* ZPPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE8D1E555ED0007B06A5 /* ZPPublishViewController.m */; };
 		78F3FE911E555F73007B06A5 /* ZPNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */; };
 		78F3FE941E55877A007B06A5 /* ZPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE931E55877A007B06A5 /* ZPTabBar.m */; };
+		AA5340C76B212DC557447951 /* libPods-ZPBudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 78C4B4B11E0D3B93005EC975;
 			remoteInfo = ZPBudejie;
+		};
+		78FCE8E41E5D2E5D00B1A57B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7864FF821E5BD85F00B7BC58 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFA159C0B414BFB7758C6E9240BD0EB;
+			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -425,6 +437,13 @@
 		7864FFDF1E5BDE0500B7BC58 /* ZPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopicViewController.m; sourceTree = "<group>"; };
 		7864FFE11E5BDEB800B7BC58 /* ZPTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTopic.h; sourceTree = "<group>"; };
 		7864FFE21E5BDEB800B7BC58 /* ZPTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopic.m; sourceTree = "<group>"; };
+		78AFCD501E5D1EC000D74B2B /* ZPTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTitleButton.h; sourceTree = "<group>"; };
+		78AFCD511E5D1EC000D74B2B /* ZPTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTitleButton.m; sourceTree = "<group>"; };
+		78AFCD581E5D2ADD00D74B2B /* ZPDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDIYHeader.h; sourceTree = "<group>"; };
+		78AFCD591E5D2ADD00D74B2B /* ZPDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDIYHeader.m; sourceTree = "<group>"; };
+		78AFCD5C1E5D2F1300D74B2B /* ZPTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTopicCell.h; sourceTree = "<group>"; };
+		78AFCD5D1E5D2F1300D74B2B /* ZPTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopicCell.m; sourceTree = "<group>"; };
+		78AFCD5E1E5D2F1300D74B2B /* ZPTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPTopicCell.xib; sourceTree = "<group>"; };
 		78C4B4B21E0D3B93005EC975 /* ZPBudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPBudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C4B4B61E0D3B93005EC975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
 		78C4B4B81E0D3B93005EC975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -473,6 +492,7 @@
 				7864FFD61E5BD88400B7BC58 /* libPods-ZPBudejie.a in Frameworks */,
 				7864FFD51E5BD87D00B7BC58 /* libMJRefresh.a in Frameworks */,
 				7864FFD41E5BD87600B7BC58 /* libAFNetworking.a in Frameworks */,
+				AA5340C76B212DC557447951 /* libPods-ZPBudejie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +634,11 @@
 		78487A191E11282F00BE3E02 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78AFCD501E5D1EC000D74B2B /* ZPTitleButton.h */,
+				78AFCD511E5D1EC000D74B2B /* ZPTitleButton.m */,
+				78AFCD5C1E5D2F1300D74B2B /* ZPTopicCell.h */,
+				78AFCD5D1E5D2F1300D74B2B /* ZPTopicCell.m */,
+				78AFCD5E1E5D2F1300D74B2B /* ZPTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -688,6 +713,8 @@
 				78F3FE931E55877A007B06A5 /* ZPTabBar.m */,
 				78C5B0571E5BC8C900A8A24E /* ZPRefreshHeader.h */,
 				78C5B0581E5BC8C900A8A24E /* ZPRefreshHeader.m */,
+				78AFCD581E5D2ADD00D74B2B /* ZPDIYHeader.h */,
+				78AFCD591E5D2ADD00D74B2B /* ZPDIYHeader.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1316,6 +1343,7 @@
 				7864FFCF1E5BD85F00B7BC58 /* libMJRefresh.a */,
 				7864FFD11E5BD85F00B7BC58 /* libPods-ZPBudejie.a */,
 				7864FFD31E5BD85F00B7BC58 /* libSDWebImage.a */,
+				78FCE8E51E5D2E5D00B1A57B /* libSVProgressHUD.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1651,6 +1679,13 @@
 			remoteRef = 7864FFD21E5BD85F00B7BC58 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		78FCE8E51E5D2E5D00B1A57B /* libSVProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSVProgressHUD.a;
+			remoteRef = 78FCE8E41E5D2E5D00B1A57B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1660,6 +1695,7 @@
 			files = (
 				78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */,
 				785389171E5294D70009AFC7 /* ZPAdViewController.xib in Resources */,
+				78AFCD601E5D2F1300D74B2B /* ZPTopicCell.xib in Resources */,
 				78C4B4C21E0D3B93005EC975 /* Assets.xcassets in Resources */,
 				78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */,
 			);
@@ -1740,6 +1776,7 @@
 				785389161E5294D70009AFC7 /* ZPAdViewController.m in Sources */,
 				78C5B05C1E5BCD4D00A8A24E /* ZPHTTPSessionManager.m in Sources */,
 				78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */,
+				78AFCD521E5D1EC000D74B2B /* ZPTitleButton.m in Sources */,
 				78F3FE8B1E555E24007B06A5 /* ZPNewViewController.m in Sources */,
 				783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */,
 				785389201E529AC70009AFC7 /* ZPTabBarController.m in Sources */,
@@ -1751,7 +1788,9 @@
 				78487A3D1E1129B000BE3E02 /* ZPFileTool.m in Sources */,
 				78C4B4BA1E0D3B93005EC975 /* AppDelegate.m in Sources */,
 				7833C0921E540083006C2871 /* ZPConst.m in Sources */,
+				78AFCD5F1E5D2F1300D74B2B /* ZPTopicCell.m in Sources */,
 				78C5B0591E5BC8C900A8A24E /* ZPRefreshHeader.m in Sources */,
+				78AFCD5A1E5D2ADD00D74B2B /* ZPDIYHeader.m in Sources */,
 				78F3FE851E555DD2007B06A5 /* ZPFriendTrendViewController.m in Sources */,
 				783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,

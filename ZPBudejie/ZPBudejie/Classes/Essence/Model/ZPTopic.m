@@ -45,9 +45,38 @@
         _cellHeight +=[cmtText boundingRectWithSize:textMaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil].size.height+ZPMargin;
         
     }
+    
+    //如果中间有图片，声音，视频，那么他们的宽为屏幕的宽
+    //减去两边的margin，高统一为根据宽度等比例伸缩后的高
+    if(self.type != ZPTopicTypeWord){
+        //中间部分的宽度
+        CGFloat middleW = textMaxSize.width;
+        //中间部分的高度
+        CGFloat middleH = middleW * self.height/self.width;
+        
+        //有可能图片非常的长，那么即使经过等比例伸缩后，其长度超过了屏幕的高度，那么经过如下处理
+        if(middleH >=ZPScreenH){
+            //如果高度高于屏幕的高度那么就指定为200；
+            middleH = 200;
+            //并将其设置为大图
+            self.bigPicture = YES;
+            
+        }
+        
+        CGFloat middleY = _cellHeight;
+        CGFloat middleX = ZPMargin;
+        
+        //此时，中间的内容的frame为
+        self.middleFrame = CGRectMake(middleX, middleY, middleW, middleH);
+        
+        //此时加上中间的高度，那么cellheight为
+        
+        _cellHeight += middleH +ZPMargin;
         
         
-        //加上工具条的高度
+        
+    }
+        //加上下面点赞评论等区域bar的高度
         _cellHeight+=35+ZPMargin;
         
         return _cellHeight;

@@ -41,7 +41,7 @@ typedef NS_ENUM(NSUInteger,ZPTopicType){
 
 @property(nonatomic,assign) NSInteger type;
 
-//帖子内容的宽度和高度
+//帖子内容的宽度和高度(仅仅指服务器发过来的图片，声音，视频等的高度，未经任何加工）不包括文字；
 @property(nonatomic,assign) NSInteger width;
 @property(nonatomic,assign) NSInteger height;
 //---------------图片类的属性-----------------//

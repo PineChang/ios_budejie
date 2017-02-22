@@ -6,4 +6,5 @@ target ‘ZPBudejie’ do
   pod ‘MJExtension', '~> 3.0.13'
   pod  'SDWebImage', '~> 4.0.0-beta2'
   pod 'MJRefresh', '~> 3.1.12'
+  pod 'SVProgressHUD', '~> 2.1.2'
 end
