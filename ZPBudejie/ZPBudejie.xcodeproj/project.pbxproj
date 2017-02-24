@@ -46,6 +46,13 @@
 		78F3FE8E1E555ED0007B06A5 /* ZPPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE8D1E555ED0007B06A5 /* ZPPublishViewController.m */; };
 		78F3FE911E555F73007B06A5 /* ZPNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */; };
 		78F3FE941E55877A007B06A5 /* ZPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE931E55877A007B06A5 /* ZPTabBar.m */; };
+		78FDC2341E6018E800C4D55D /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC22D1E6018E800C4D55D /* LaunchImage-568h@2x.png */; };
+		78FDC2351E6018E800C4D55D /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC22E1E6018E800C4D55D /* LaunchImage-700-568h@2x.png */; };
+		78FDC2361E6018E800C4D55D /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC22F1E6018E800C4D55D /* LaunchImage-700@2x.png */; };
+		78FDC2371E6018E800C4D55D /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC2301E6018E800C4D55D /* LaunchImage-800-667h@2x.png */; };
+		78FDC2381E6018E800C4D55D /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC2311E6018E800C4D55D /* LaunchImage-800-Portrait-736h@3x.png */; };
+		78FDC2391E6018E800C4D55D /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC2321E6018E800C4D55D /* LaunchImage.png */; };
+		78FDC23A1E6018E800C4D55D /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FDC2331E6018E800C4D55D /* LaunchImage@2x.png */; };
 		AA5340C76B212DC557447951 /* libPods-ZPBudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */; };
 /* End PBXBuildFile section */
 
@@ -478,6 +485,13 @@
 		78F3FE901E555F73007B06A5 /* ZPNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPNavigationViewController.m; sourceTree = "<group>"; };
 		78F3FE921E55877A007B06A5 /* ZPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTabBar.h; sourceTree = "<group>"; };
 		78F3FE931E55877A007B06A5 /* ZPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTabBar.m; sourceTree = "<group>"; };
+		78FDC22D1E6018E800C4D55D /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		78FDC22E1E6018E800C4D55D /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		78FDC22F1E6018E800C4D55D /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		78FDC2301E6018E800C4D55D /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		78FDC2311E6018E800C4D55D /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		78FDC2321E6018E800C4D55D /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		78FDC2331E6018E800C4D55D /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		85C7126F1D59613B6B0316EB /* Pods-ZPBudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.release.xcconfig"; sourceTree = "<group>"; };
 		E8514F5C06E113537B494C92 /* libPods-ZPBudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPBudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1513,6 +1527,7 @@
 		78C4B4B51E0D3B93005EC975 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78FDC22C1E6018E800C4D55D /* 启动图片 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1533,6 +1548,20 @@
 				78C4B4DC1E0D3B93005EC975 /* Info.plist */,
 			);
 			path = ZPBudejieUITests;
+			sourceTree = "<group>";
+		};
+		78FDC22C1E6018E800C4D55D /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				78FDC22D1E6018E800C4D55D /* LaunchImage-568h@2x.png */,
+				78FDC22E1E6018E800C4D55D /* LaunchImage-700-568h@2x.png */,
+				78FDC22F1E6018E800C4D55D /* LaunchImage-700@2x.png */,
+				78FDC2301E6018E800C4D55D /* LaunchImage-800-667h@2x.png */,
+				78FDC2311E6018E800C4D55D /* LaunchImage-800-Portrait-736h@3x.png */,
+				78FDC2321E6018E800C4D55D /* LaunchImage.png */,
+				78FDC2331E6018E800C4D55D /* LaunchImage@2x.png */,
+			);
+			path = "启动图片";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1693,11 +1722,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FDC2351E6018E800C4D55D /* LaunchImage-700-568h@2x.png in Resources */,
+				78FDC23A1E6018E800C4D55D /* LaunchImage@2x.png in Resources */,
 				78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */,
 				785389171E5294D70009AFC7 /* ZPAdViewController.xib in Resources */,
 				78AFCD601E5D2F1300D74B2B /* ZPTopicCell.xib in Resources */,
+				78FDC2371E6018E800C4D55D /* LaunchImage-800-667h@2x.png in Resources */,
 				78C4B4C21E0D3B93005EC975 /* Assets.xcassets in Resources */,
+				78FDC2361E6018E800C4D55D /* LaunchImage-700@2x.png in Resources */,
+				78FDC2341E6018E800C4D55D /* LaunchImage-568h@2x.png in Resources */,
+				78FDC2381E6018E800C4D55D /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				78C4B4C01E0D3B93005EC975 /* Main.storyboard in Resources */,
+				78FDC2391E6018E800C4D55D /* LaunchImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
