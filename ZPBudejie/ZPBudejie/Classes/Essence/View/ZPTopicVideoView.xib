@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZPTopicVideoView">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="291"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qoc-Jb-nvg" userLabel="占位图片">
+                    <rect key="frame" x="0.0" y="30" width="321" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="exb-yd-L1d"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9a0-I7-ICW">
+                    <rect key="frame" x="0.0" y="0.0" width="321" height="291"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71h-4b-JEg">
+                    <rect key="frame" x="126" y="110" width="71" height="71"/>
+                    <state key="normal" image="video-play"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4343播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDF-mq-AcD" userLabel="PlaycountLabel">
+                    <rect key="frame" x="250" y="0.0" width="71" height="21"/>
+                    <color key="backgroundColor" red="0.54088406735751293" green="0.54088406735751293" blue="0.54088406735751293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duy-di-sFW" userLabel="VideotimeLabel">
+                    <rect key="frame" x="275" y="270" width="46" height="21"/>
+                    <color key="backgroundColor" red="0.46061366580310881" green="0.46061366580310881" blue="0.46061366580310881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NDF-mq-AcD" secondAttribute="trailing" id="7Mz-0J-x51"/>
+                <constraint firstAttribute="trailing" secondItem="9a0-I7-ICW" secondAttribute="trailing" id="8Te-mG-zSo"/>
+                <constraint firstItem="qoc-Jb-nvg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="GxE-9v-yqP"/>
+                <constraint firstItem="9a0-I7-ICW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I1m-Mh-GjD"/>
+                <constraint firstAttribute="trailing" secondItem="qoc-Jb-nvg" secondAttribute="trailing" id="JH4-BN-6il"/>
+                <constraint firstItem="71h-4b-JEg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="KXb-dS-bmX"/>
+                <constraint firstAttribute="trailing" secondItem="duy-di-sFW" secondAttribute="trailing" id="LCl-qM-E4G"/>
+                <constraint firstItem="71h-4b-JEg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NzW-Dd-gye"/>
+                <constraint firstAttribute="bottom" secondItem="duy-di-sFW" secondAttribute="bottom" id="SOO-of-szB"/>
+                <constraint firstAttribute="bottom" secondItem="9a0-I7-ICW" secondAttribute="bottom" id="c4j-Yb-lPd"/>
+                <constraint firstItem="qoc-Jb-nvg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="por-UN-53J"/>
+                <constraint firstItem="9a0-I7-ICW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vz8-Hh-hCN"/>
+                <constraint firstItem="NDF-mq-AcD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wJz-BR-qDu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="169.5" y="162.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="video-play" width="71" height="71"/>
+    </resources>
+</document>

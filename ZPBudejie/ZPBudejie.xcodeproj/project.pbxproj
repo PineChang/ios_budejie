@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7817C4451E611C5500F16EFF /* ZPTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7817C4441E611C5500F16EFF /* ZPTopicVideoView.m */; };
+		7817C44D1E611D3E00F16EFF /* ZPTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7817C44C1E611D3E00F16EFF /* ZPTopicVideoView.xib */; };
+		7817C4501E6122A600F16EFF /* ZPTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7817C44F1E6122A600F16EFF /* ZPTopicVoiceView.m */; };
+		7817C4521E6122DC00F16EFF /* ZPTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7817C4511E6122DC00F16EFF /* ZPTopicVoiceView.xib */; };
+		7817C4551E61278E00F16EFF /* ZPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7817C4541E61278E00F16EFF /* ZPTopicPictureView.m */; };
+		7817C4571E6127B700F16EFF /* ZPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7817C4561E6127B700F16EFF /* ZPTopicPictureView.xib */; };
 		7833C0921E540083006C2871 /* ZPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7833C0911E540083006C2871 /* ZPConst.m */; };
 		783FF5FA1E151C9300D07D84 /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5F91E151C9300D07D84 /* UIImage+Antialias.m */; };
 		783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 783FF5FC1E15245200D07D84 /* UIImage+Image.m */; };
@@ -117,6 +123,15 @@
 
 /* Begin PBXFileReference section */
 		5CD4F1F48B279DB805EEDB8D /* Pods-ZPBudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPBudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPBudejie/Pods-ZPBudejie.debug.xcconfig"; sourceTree = "<group>"; };
+		7817C4431E611C5500F16EFF /* ZPTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTopicVideoView.h; sourceTree = "<group>"; };
+		7817C4441E611C5500F16EFF /* ZPTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopicVideoView.m; sourceTree = "<group>"; };
+		7817C44C1E611D3E00F16EFF /* ZPTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPTopicVideoView.xib; sourceTree = "<group>"; };
+		7817C44E1E6122A600F16EFF /* ZPTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTopicVoiceView.h; sourceTree = "<group>"; };
+		7817C44F1E6122A600F16EFF /* ZPTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopicVoiceView.m; sourceTree = "<group>"; };
+		7817C4511E6122DC00F16EFF /* ZPTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPTopicVoiceView.xib; sourceTree = "<group>"; };
+		7817C4531E61278E00F16EFF /* ZPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTopicPictureView.h; sourceTree = "<group>"; };
+		7817C4541E61278E00F16EFF /* ZPTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTopicPictureView.m; sourceTree = "<group>"; };
+		7817C4561E6127B700F16EFF /* ZPTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPTopicPictureView.xib; sourceTree = "<group>"; };
 		7833C0901E540083006C2871 /* ZPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPConst.h; sourceTree = "<group>"; };
 		7833C0911E540083006C2871 /* ZPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPConst.m; sourceTree = "<group>"; };
 		783FF5F81E151C9300D07D84 /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
@@ -653,6 +668,15 @@
 				78AFCD5C1E5D2F1300D74B2B /* ZPTopicCell.h */,
 				78AFCD5D1E5D2F1300D74B2B /* ZPTopicCell.m */,
 				78AFCD5E1E5D2F1300D74B2B /* ZPTopicCell.xib */,
+				7817C4431E611C5500F16EFF /* ZPTopicVideoView.h */,
+				7817C4441E611C5500F16EFF /* ZPTopicVideoView.m */,
+				7817C44C1E611D3E00F16EFF /* ZPTopicVideoView.xib */,
+				7817C44E1E6122A600F16EFF /* ZPTopicVoiceView.h */,
+				7817C44F1E6122A600F16EFF /* ZPTopicVoiceView.m */,
+				7817C4511E6122DC00F16EFF /* ZPTopicVoiceView.xib */,
+				7817C4531E61278E00F16EFF /* ZPTopicPictureView.h */,
+				7817C4541E61278E00F16EFF /* ZPTopicPictureView.m */,
+				7817C4561E6127B700F16EFF /* ZPTopicPictureView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1727,7 +1751,10 @@
 				78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */,
 				785389171E5294D70009AFC7 /* ZPAdViewController.xib in Resources */,
 				78AFCD601E5D2F1300D74B2B /* ZPTopicCell.xib in Resources */,
+				7817C4571E6127B700F16EFF /* ZPTopicPictureView.xib in Resources */,
+				7817C44D1E611D3E00F16EFF /* ZPTopicVideoView.xib in Resources */,
 				78FDC2371E6018E800C4D55D /* LaunchImage-800-667h@2x.png in Resources */,
+				7817C4521E6122DC00F16EFF /* ZPTopicVoiceView.xib in Resources */,
 				78C4B4C21E0D3B93005EC975 /* Assets.xcassets in Resources */,
 				78FDC2361E6018E800C4D55D /* LaunchImage-700@2x.png in Resources */,
 				78FDC2341E6018E800C4D55D /* LaunchImage-568h@2x.png in Resources */,
@@ -1810,6 +1837,7 @@
 				783FF6001E1528B600D07D84 /* UIView+Frame.m in Sources */,
 				7864FFE01E5BDE0500B7BC58 /* ZPTopicViewController.m in Sources */,
 				785389161E5294D70009AFC7 /* ZPAdViewController.m in Sources */,
+				7817C4451E611C5500F16EFF /* ZPTopicVideoView.m in Sources */,
 				78C5B05C1E5BCD4D00A8A24E /* ZPHTTPSessionManager.m in Sources */,
 				78409A211E166D6D00B2C96F /* UITextField+Placeholder.m in Sources */,
 				78AFCD521E5D1EC000D74B2B /* ZPTitleButton.m in Sources */,
@@ -1826,11 +1854,13 @@
 				7833C0921E540083006C2871 /* ZPConst.m in Sources */,
 				78AFCD5F1E5D2F1300D74B2B /* ZPTopicCell.m in Sources */,
 				78C5B0591E5BC8C900A8A24E /* ZPRefreshHeader.m in Sources */,
+				7817C4501E6122A600F16EFF /* ZPTopicVoiceView.m in Sources */,
 				78AFCD5A1E5D2ADD00D74B2B /* ZPDIYHeader.m in Sources */,
 				78F3FE851E555DD2007B06A5 /* ZPFriendTrendViewController.m in Sources */,
 				783FF6061E152E7000D07D84 /* UIBarButtonItem+Item.m in Sources */,
 				78C4B4B71E0D3B93005EC975 /* main.m in Sources */,
 				7864FFE31E5BDEB800B7BC58 /* ZPTopic.m in Sources */,
+				7817C4551E61278E00F16EFF /* ZPTopicPictureView.m in Sources */,
 				78F3FE911E555F73007B06A5 /* ZPNavigationViewController.m in Sources */,
 				78F3FE821E555D9C007B06A5 /* ZPEssenceViewController.m in Sources */,
 			);
