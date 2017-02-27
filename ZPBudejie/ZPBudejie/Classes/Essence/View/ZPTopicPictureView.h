@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class ZPTopic;
+
 @interface ZPTopicPictureView : UIView
+
+@property(nonatomic,strong) ZPTopic *topic;
 
 @end

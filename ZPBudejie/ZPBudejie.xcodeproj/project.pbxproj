@@ -45,6 +45,8 @@
 		78C5B0591E5BC8C900A8A24E /* ZPRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5B0581E5BC8C900A8A24E /* ZPRefreshHeader.m */; };
 		78C5B05C1E5BCD4D00A8A24E /* ZPHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5B05B1E5BCD4D00A8A24E /* ZPHTTPSessionManager.m */; };
 		78C5B05F1E5BCF3B00A8A24E /* ZPSettingViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5B05E1E5BCF3B00A8A24E /* ZPSettingViewControllerTableViewController.m */; };
+		78D4713D1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D4713C1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.m */; };
+		78D471451E63D22800FA4537 /* ZPSeeBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D471441E63D22800FA4537 /* ZPSeeBigPictureViewController.xib */; };
 		78F3FE821E555D9C007B06A5 /* ZPEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */; };
 		78F3FE851E555DD2007B06A5 /* ZPFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE841E555DD2007B06A5 /* ZPFriendTrendViewController.m */; };
 		78F3FE881E555E0A007B06A5 /* ZPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3FE871E555E0A007B06A5 /* ZPMeViewController.m */; };
@@ -486,6 +488,9 @@
 		78C5B05B1E5BCD4D00A8A24E /* ZPHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHTTPSessionManager.m; sourceTree = "<group>"; };
 		78C5B05D1E5BCF3B00A8A24E /* ZPSettingViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSettingViewControllerTableViewController.h; sourceTree = "<group>"; };
 		78C5B05E1E5BCF3B00A8A24E /* ZPSettingViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSettingViewControllerTableViewController.m; sourceTree = "<group>"; };
+		78D4713B1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPSeeBigPictureViewController.h; sourceTree = "<group>"; };
+		78D4713C1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPSeeBigPictureViewController.m; sourceTree = "<group>"; };
+		78D471441E63D22800FA4537 /* ZPSeeBigPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPSeeBigPictureViewController.xib; sourceTree = "<group>"; };
 		78F3FE801E555D9C007B06A5 /* ZPEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPEssenceViewController.h; sourceTree = "<group>"; };
 		78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPEssenceViewController.m; sourceTree = "<group>"; };
 		78F3FE831E555DD2007B06A5 /* ZPFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPFriendTrendViewController.h; sourceTree = "<group>"; };
@@ -647,6 +652,9 @@
 				7864FFDA1E5BDD6000B7BC58 /* Topic */,
 				78F3FE801E555D9C007B06A5 /* ZPEssenceViewController.h */,
 				78F3FE811E555D9C007B06A5 /* ZPEssenceViewController.m */,
+				78D4713B1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.h */,
+				78D4713C1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.m */,
+				78D471441E63D22800FA4537 /* ZPSeeBigPictureViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1748,6 +1756,7 @@
 			files = (
 				78FDC2351E6018E800C4D55D /* LaunchImage-700-568h@2x.png in Resources */,
 				78FDC23A1E6018E800C4D55D /* LaunchImage@2x.png in Resources */,
+				78D471451E63D22800FA4537 /* ZPSeeBigPictureViewController.xib in Resources */,
 				78C4B4C51E0D3B93005EC975 /* LaunchScreen.storyboard in Resources */,
 				785389171E5294D70009AFC7 /* ZPAdViewController.xib in Resources */,
 				78AFCD601E5D2F1300D74B2B /* ZPTopicCell.xib in Resources */,
@@ -1846,6 +1855,7 @@
 				785389201E529AC70009AFC7 /* ZPTabBarController.m in Sources */,
 				78F3FE881E555E0A007B06A5 /* ZPMeViewController.m in Sources */,
 				78F3FE941E55877A007B06A5 /* ZPTabBar.m in Sources */,
+				78D4713D1E63D1EC00FA4537 /* ZPSeeBigPictureViewController.m in Sources */,
 				783FF5FD1E15245200D07D84 /* UIImage+Image.m in Sources */,
 				78C5B05F1E5BCF3B00A8A24E /* ZPSettingViewControllerTableViewController.m in Sources */,
 				7853891A1E5297650009AFC7 /* ZPADItem.m in Sources */,

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ZPTopic;
 
 @interface ZPTopicVideoView : UIView
+
+@property(nonatomic,strong) ZPTopic  *topic;
 
 @end

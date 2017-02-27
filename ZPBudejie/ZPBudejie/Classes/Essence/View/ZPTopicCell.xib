@@ -33,9 +33,9 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-9F-ruh" userLabel="更多">
-                        <rect key="frame" x="264" y="10" width="46" height="30"/>
-                        <state key="normal" title="Button"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-9F-ruh" userLabel="更多">
+                        <rect key="frame" x="286" y="10" width="24" height="22"/>
+                        <state key="normal" image="cellmorebtnnormal"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UR-V8-RGK">
                         <rect key="frame" x="10" y="55" width="300" height="21"/>
@@ -185,11 +185,24 @@
                     <constraint firstItem="fhy-Vz-f7N" firstAttribute="leading" secondItem="5UR-V8-RGK" secondAttribute="leading" id="x0F-Zn-obA"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="caiButton" destination="3gX-bB-mvu" id="YfO-0m-XTv"/>
+                <outlet property="commentButton" destination="VFe-6z-I7a" id="di0-GI-eoj"/>
+                <outlet property="dingButton" destination="lJS-bf-Cmi" id="Kkq-d1-FqA"/>
+                <outlet property="nameLabel" destination="RA4-9U-X22" id="Ol6-IN-brE"/>
+                <outlet property="passtimeLabel" destination="886-nQ-MrY" id="jRs-Wj-CpX"/>
+                <outlet property="profileImageView" destination="7qr-HH-HBe" id="Cyt-55-3Tw"/>
+                <outlet property="repostButton" destination="jRG-ok-RjU" id="Cyl-YN-mV8"/>
+                <outlet property="text_label" destination="5UR-V8-RGK" id="DcH-TB-S1G"/>
+                <outlet property="topCmtLabel" destination="n8Q-02-Aw8" id="GeI-fR-tz7"/>
+                <outlet property="topCmtView" destination="fhy-Vz-f7N" id="eAk-Sw-fAd"/>
+            </connections>
             <point key="canvasLocation" x="440" y="362.5"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="cell-content-line" width="299" height="1"/>
+        <image name="cellmorebtnnormal" width="24" height="20"/>
         <image name="mainCellCai" width="20" height="20"/>
         <image name="mainCellComment" width="20" height="20"/>
         <image name="mainCellDing" width="20" height="20"/>

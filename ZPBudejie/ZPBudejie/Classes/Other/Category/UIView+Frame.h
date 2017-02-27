@@ -25,5 +25,5 @@
 
 @property CGFloat zp_centerY;
 
-
++(instancetype)zp_viewFromXib;
 @end

@@ -62,5 +62,7 @@
 -(CGFloat)zp_centerY{
     return self.center.y;
 }
-
++ (instancetype) zp_viewFromXib{
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
 @end

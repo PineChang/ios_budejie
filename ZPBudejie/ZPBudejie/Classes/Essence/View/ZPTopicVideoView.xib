@@ -57,6 +57,12 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="9a0-I7-ICW" id="QlG-jn-Qe9"/>
+                <outlet property="placeholderView" destination="qoc-Jb-nvg" id="F8H-yP-0vh"/>
+                <outlet property="playcountLabel" destination="NDF-mq-AcD" id="ise-h6-XFQ"/>
+                <outlet property="videotimeLabel" destination="duy-di-sFW" id="mJs-kX-dWM"/>
+            </connections>
             <point key="canvasLocation" x="169.5" y="162.5"/>
         </view>
     </objects>
