@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ZPTopic;
 
 @interface ZPSeeBigPictureViewController : UIViewController
+/**数据模型*/
+@property(nonatomic,strong) ZPTopic *topic;
+
 
 @end
